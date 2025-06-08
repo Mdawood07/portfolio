@@ -1205,8 +1205,9 @@ a {
   margin: 0 0 5px;
 }
 .portfolio-box .portfolio-text p {
-  margin: 0;
-  font-size: 13px;
+    margin: 0;
+    font-size: 13px;
+    color: #000;
 }
 .portfolio-box .portfolio-text .gallery-link {
   position: absolute;
