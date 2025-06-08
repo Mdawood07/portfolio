@@ -746,6 +746,10 @@ img {
   .section-heading h3 {
     font-size: 32px;
   }
+  .portfolio-btn{
+    text-align: center !important;
+    margin-bottom: 40px;
+  }
 }
 .section-heading h3:after {
   content: "";
