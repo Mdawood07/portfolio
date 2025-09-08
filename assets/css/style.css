@@ -1200,7 +1200,8 @@ a {
     padding: 20px;
     border-radius: 10px;
     transition: ease all 0.35s;
-    opacity: 0;
+    opacity: 1;
+    bottom: 20px;
 }
 .portfolio-box .portfolio-text h6 {
   font-size: 17px;
@@ -1238,14 +1239,11 @@ a {
   color: var(--px-white);
   border-radius: 50%;
   border: 2px solid var(--px-theme);
-}
+
 .portfolio-box .portfolio-modal-link:hover {
   color: var(--px-text);
 }
-.portfolio-box:hover .portfolio-text {
-  bottom: 20px;
-  opacity: 1;
-}
+
 
 /* Testimonials
 -------------------------------*/
