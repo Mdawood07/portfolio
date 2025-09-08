@@ -1187,18 +1187,20 @@ a {
 .portfolio-box .portfolio-img {
   overflow: hidden;
   border-radius: 10px;
+  background: #ffa800;
+  height: 200px;  
 }
 .portfolio-box .portfolio-text {
-  position: absolute;
-  bottom: 0px;
-  left: 20px;
-  right: 20px;
-  background-color: var(--px-theme);
-  border: 1px solid rgba(var(--px-mode-rgb), 0.1);
-  padding: 20px;
-  border-radius: 10px;
-  transition: ease all 0.35s;
-  opacity: 0;
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    right: 20px;
+    background-color: #000000;
+    border: 1px solid rgba(var(--px-mode-rgb), 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    transition: ease all 0.35s;
+    opacity: 0;
 }
 .portfolio-box .portfolio-text h6 {
   font-size: 17px;
@@ -1207,7 +1209,7 @@ a {
 .portfolio-box .portfolio-text p {
     margin: 0;
     font-size: 13px;
-    color: #000;
+    color: #ffa800;
 }
 .portfolio-box .portfolio-text .gallery-link {
   position: absolute;
