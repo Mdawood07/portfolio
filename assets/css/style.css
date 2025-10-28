@@ -679,6 +679,16 @@ img {
   right: 30px;
   bottom: 30px;
 }
+.rounded-effect img {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 50%;
+    transform: translate(-6% , -50%);
+}
 
 .rounded-effect-start {
   bottom: -120px;
