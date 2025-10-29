@@ -846,6 +846,37 @@ img {
   padding-bottom: 12px;
   border-bottom: 1px solid rgba(var(--px-mode-rgb), 0.2);
 }
+img.project-scroll-img {
+  width: 100%;
+  transition: transform 0.5s ease-out;
+}
+
+/* jab hover ho, animation start ho */
+.portfolio-img:hover img {
+  animation: scrollUp 6s linear forwards;
+}
+
+
+
+/* upar scroll karne ka animation */
+@keyframes scrollUp {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-80%); /* jitna scroll karwana ho utna adjust karo */
+  }
+}
+
+/* neeche wapas aane ka animation */
+@keyframes scrollDown {
+  from {
+    transform: translateY(-80%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
 
 body {
   color: var(--px-text);
