@@ -853,7 +853,7 @@ img.project-scroll-img {
 
 /* jab hover ho, animation start ho */
 .portfolio-img:hover img {
-  animation: scrollUp 6s linear forwards;
+  animation: scrollUp 12s linear forwards;
 }
 
 
