@@ -97,7 +97,7 @@ Primary use:    pxdraft
     background-color: #0000007d;
     backdrop-filter: blur(5px);
 }
-.mobile-header img.logo-light {
+.mobile-header img.logo-light, .hs-start img.logo-light{
     max-width: 35px;
 }
 .mobile-header .container {
