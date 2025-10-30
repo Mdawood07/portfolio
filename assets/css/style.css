@@ -94,7 +94,11 @@ Primary use:    pxdraft
   }
 }
 .fixed-header .mobile-header {
-  background-color: var(--px-body-bg);
+    background-color: #0000007d;
+    backdrop-filter: blur(5px);
+}
+.mobile-header img.logo-light {
+    max-width: 35px;
 }
 .mobile-header .container {
   display: flex;
