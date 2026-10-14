@@ -10,11 +10,11 @@
   const storedTheme = localStorage.getItem('theme')
 
   const getPreferredTheme = () => {
-    if (storedTheme) {
+    if (storedTheme === 'light' || storedTheme === 'dark') {
       return storedTheme
     }
 
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+    return 'dark'
   }
 
   const setTheme = function (theme) {
@@ -41,7 +41,7 @@
   }
 
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
-    if (storedTheme !== 'light' || storedTheme !== 'dark') {
+    if (!storedTheme || (storedTheme !== 'light' && storedTheme !== 'dark')) {
       setTheme(getPreferredTheme())
     }
   })
